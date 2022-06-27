@@ -8,11 +8,11 @@
     <title>PSD To HTML Website Design</title>
 
     <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/img/favicon/site.webmanifest">
-    <link rel="mask-icon" href="assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="manifest" href="../assets/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="../assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- style -->
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
@@ -50,6 +50,8 @@
             <!-- navbar -->
             <nav id="navbar" class="uni-padding">
                 <ul>
+                    <!-- mobile-cross btn -->
+                    <li id="mobile-cross"><a href="javascript:void(0)" onclick="closeMenu()"><i class="fa fa-close"></i>&nbsp;</a></li>
                     <li><a href="">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="">Services</a></li>
@@ -59,6 +61,10 @@
                     <li><a href="">Contact</a></li>
                 </ul>
             </nav>
+            <!-- mobile menu btn  -->
+            <div id="mobile-bar" onclick="openMenu()">
+                <i class="fa fa-bars"></i>&nbsp; Menu
+            </div>
         </header>
 
         <!-- poster -->
@@ -68,22 +74,69 @@
         </div>
 
         <!-- why us -->
+        <h1 class="red-heading">WHY US</h1>
         <div id="whysection" class="uni-padding">
-            <h1 class="red-heading">WHY US</h1>
             <div class="section33">
-                <img src="/assets/img/why-us-1.png" alt="Why Us 1">
+                <img src="assets/img/why-us-1.png" alt="Why Us 1">
                 <h2>Heading 1</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum ex voluptate eligendi qui sit ratione mollitia ut delectus voluptatum! Eum.</p>
             </div>
             <div class="section33">
-                <img src="/assets/img/why-us-2.png" alt="Why Us 2">
+                <img src="assets/img/why-us-2.png" alt="Why Us 2">
                 <h2>Heading 2</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum ex voluptate eligendi qui sit ratione mollitia ut delectus voluptatum! Eum.</p>
             </div>
             <div class="section33">
-                <img src="/assets/img/why-us-3.png" alt="Why Us 3">
+                <img src="assets/img/why-us-3.png" alt="Why Us 3">
                 <h2>Heading 3</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum ex voluptate eligendi qui sit ratione mollitia ut delectus voluptatum! Eum.</p>
+            </div>
+        </div>
+
+        <!-- contact section -->
+        <div id="contact-container" class="uni-padding">
+            <div class="section70">
+                <h1>Lorem Ipsum</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti rem vel nam eos suscipit. Omnis accusantium aliquam explicabo est provident.</p>
+            </div>
+            <div class="section30">
+                <a href="" id="contact-btn">Contact Us</a>
+            </div>
+        </div>
+
+        <!-- blog -->
+        <h1 class="red-heading">BLOG</h1>
+        <div id="whysection" class="uni-padding">
+            <div class="section33 blog">
+                <img src="assets/img/blog-1.png" alt="Why Us 1">
+                <h2>Heading 1</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum ex voluptate eligendi qui sit ratione mollitia ut delectus voluptatum! Eum.</p>
+                <a class="read-more-btn" href="">Read More</a>
+            </div>
+            <div class="section33 blog">
+                <img src="assets/img/blog-2.png" alt="Why Us 2">
+                <h2>Heading 2</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum ex voluptate eligendi qui sit ratione mollitia ut delectus voluptatum! Eum.</p>
+                <a class="read-more-btn" href="">Read More</a>
+            </div>
+            <div class="section33 blog">
+                <img src="assets/img/blog-3.png" alt="Why Us 3">
+                <h2>Heading 3</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum ex voluptate eligendi qui sit ratione mollitia ut delectus voluptatum! Eum.</p>
+                <a class="read-more-btn" href="">Read More</a>
+            </div>
+        </div>
+
+        <!-- subscribe -->
+        <div id="subscribe-section" class="uni-padding">
+            <div class="section50">
+                <h2>Subscribe to our Newsletter</h2>
+            </div>
+            <div class="section50">
+                <form action="">
+                    <input type="email" required placeholder="Enter Email Address">
+                    <input type="submit">
+                </form>
             </div>
         </div>
 
