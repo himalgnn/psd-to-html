@@ -101,8 +101,9 @@ body {
 }
 
 /* poster */
-#poster{
-    background-image: url(/assets/img/banner.jpg);
+#poster {
+    /* there should be full adress of the image  */
+    background-image: url('/Website/assets/img/banner.jpg');
     height: 500px;
     background-position: center;
     background-size: cover;
@@ -112,19 +113,22 @@ body {
     color: white;
     flex-direction: column;
 }
-#poster h1{
+
+#poster h1 {
     font-size: 50px;
 }
-#poster p{
+
+#poster p {
     font-size: 18px;
     text-align: center;
 }
-#poster img{
+
+#poster img {
     background: gray;
 }
 
 /* why us */
-#whysection{
+#whysection {
     overflow: auto;
     margin-bottom: 50px;
     display: flex;
@@ -132,14 +136,15 @@ body {
     justify-content: center;
 }
 
-.red-heading{
+.red-heading {
     color: #ee5253;
     text-align: center;
     font-size: 35px;
     margin-top: 50px;
     display: block;
 }
-.section33{
+
+.section33 {
     float: left;
     text-align: center;
     background-color: #f3f1f1;
@@ -153,13 +158,16 @@ body {
     box-sizing: border-box;
 
 }
-.section33 h2{
+
+.section33 h2 {
     color: #ee5253;
 }
-.section33 p{
+
+.section33 p {
     color: #363636;
 }
-.section33 img{
+
+.section33 img {
     width: 100%;
     height: 200px;
     /* margin-top: 10px;
@@ -167,25 +175,28 @@ body {
 }
 
 /* contact section  */
-#contact-container{
+#contact-container {
     background-color: #ee5253;
     color: white;
     overflow: auto;
     padding-top: 20px;
     padding-bottom: 30px;
-    
+
 }
-.section70{
+
+.section70 {
     width: 70%;
     float: left;
 }
-.section30{
+
+.section30 {
     width: 30%;
     float: left;
     text-align: center;
     padding-top: 60px;
 }
-#contact-btn{
+
+#contact-btn {
     background-color: white;
     color: #ee5253;
     border-radius: 8px;
@@ -199,7 +210,7 @@ body {
 /* blog - (Reusable component)
 Styling of Blog is Re-used from Why Us Section */
 
-.read-more-btn{
+.read-more-btn {
     color: #ee5253;
     font-family: din-alt-bold;
     text-decoration: none;
@@ -207,26 +218,30 @@ Styling of Blog is Re-used from Why Us Section */
 
 
 /* subscribe section */
-#subscribe-section{
+#subscribe-section {
     background-color: #ee5253;
     color: white;
     overflow: auto;
     padding-top: 40px;
     padding-bottom: 40px;
 }
-.section50{
+
+.section50 {
     width: 50%;
     float: left;
 }
-.section50 h2{
+
+.section50 h2 {
     font-size: 27px;
     text-align: right;
     padding-right: 100px;
 }
-.section50 form{
+
+.section50 form {
     padding-top: 25px;
 }
-.section50 input[type="email"]{
+
+.section50 input[type="email"] {
     padding: 10px 15px;
     font-size: 15px;
     color: #ee5253;
@@ -235,7 +250,8 @@ Styling of Blog is Re-used from Why Us Section */
     width: 45%;
     border-radius: 5px;
 }
-.section50 input[type="submit"]{
+
+.section50 input[type="submit"] {
     padding: 8px 35px;
     font-size: 15px;
     color: #ee5253;
@@ -295,13 +311,15 @@ Styling of Blog is Re-used from Why Us Section */
 /* responsive ipad */
 
 @media only screen and (max-width: 768px) {
-    #navbar ul li{
+    #navbar ul li {
         padding-right: 20px;
     }
-    .section70{
+
+    .section70 {
         padding-right: 30px;
         box-sizing: border-box;
     }
+
     #subscribe-section {
         padding-top: 20px;
         padding-bottom: 5px;
@@ -313,50 +331,59 @@ Styling of Blog is Re-used from Why Us Section */
     #logobar {
         text-align: center;
     }
+
     #poster h1 {
         font-size: 28px;
     }
-    .section30{
+
+    .section30 {
         padding-top: 30px;
         padding-bottom: 20px;
     }
-    .section33, .section70, .section30, .section50, .div33{
+
+    .section33,
+    .section70,
+    .section30,
+    .section50,
+    .div33 {
         width: 100%;
-        
+
     }
 
-    .section33{
+    .section33 {
         padding-left: 25px;
         padding-right: 25px;
     }
 
-    .section33 a{
+    .section33 a {
         display: inline-block;
         margin-bottom: 10px;
     }
 
-    .section50 h2{
+    .section50 h2 {
         font-size: 20px;
         text-align: center;
         padding-right: 0px;
         margin-top: 5px;
         margin-bottom: 5px;
     }
+
     .section50 form {
         padding-top: 20px;
         padding-bottom: 20px;
     }
 
-    .section70, .section50{
+    .section70,
+    .section50 {
         text-align: center;
         padding-right: 0px;
     }
 
-    .div33{
+    .div33 {
         text-align: center;
     }
 
-    #footer-menu-container{
+    #footer-menu-container {
         padding-left: 0px;
     }
 
@@ -368,27 +395,33 @@ Styling of Blog is Re-used from Why Us Section */
         text-align: center;
     }
 
-    .section30{
+    .section30 {
         padding-top: 30px;
         padding-bottom: 20px;
     }
 
-    .section33, .section70, .section30, .section50, .div33{
+    .section33,
+    .section70,
+    .section30,
+    .section50,
+    .div33 {
         width: 100%;
-        
+
     }
 
-    .section70, .section50{
+    .section70,
+    .section50 {
         text-align: center;
         padding-right: 0px;
     }
 
-    .section50 h2{
+    .section50 h2 {
         text-align: center;
         padding-right: 0px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
+
     .section50 form {
         padding-top: 20px;
         padding-bottom: 20px;
@@ -399,66 +432,71 @@ Styling of Blog is Re-used from Why Us Section */
         padding-bottom: 40px;
     }
 
-    .div33{
+    .div33 {
         text-align: center;
     }
 
-    #footer-menu-container{
+    #footer-menu-container {
         padding-left: 0px;
     }
 
-   .section33{
-    background-color: #f3f1f1;
-    border-radius: 20px;
-    box-shadow: 3px 3px 10px grey;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 40px;
-    overflow: hidden;
-    width: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 10px;
-   }
-   .section33 p{
-    font-size: 16px;
-    padding-left: 5px;
-    padding-right: 5px;
-   }
-   .section33 img{
-    margin: 0px;
-    width: 100%;
-    height: auto;
-   }
-   .blog img{
-    margin: 0px;
-    width: 100%;
-    height: auto;
-   }
-   #whysection{
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    flex-direction: column;
-    margin-left: 50px;
-    margin-right: 50px;
-   }
-  
+    .section33 {
+        background-color: #f3f1f1;
+        border-radius: 20px;
+        box-shadow: 3px 3px 10px grey;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 40px;
+        overflow: hidden;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 10px;
+    }
+
+    .section33 p {
+        font-size: 16px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .section33 img {
+        margin: 0px;
+        width: 100%;
+        height: auto;
+    }
+
+    .blog img {
+        margin: 0px;
+        width: 100%;
+        height: auto;
+    }
+
+    #whysection {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
 }
 
 /* mobile menu  */
-#navbar ul #mobile-cross, #mobile-bar{
+#navbar ul #mobile-cross,
+#mobile-bar {
     display: none;
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
 
-    #navbar{
-    top: 0px;
-    position: absolute;
-    height: 100vh;
-    padding: 0px;
-    width: 280px;
+    #navbar {
+        top: 0px;
+        position: absolute;
+        height: 100vh;
+        padding: 0px;
+        width: 280px;
     }
 
     #navbar ul li {
@@ -469,26 +507,30 @@ Styling of Blog is Re-used from Why Us Section */
         padding-left: 20px;
     }
 
-    #mobile-cross{
+    #mobile-cross {
         text-align: right;
     }
-    .fa-close{
-    font-size: 25px;
-    
+
+    .fa-close {
+        font-size: 25px;
+
     }
 
-    #navbar{
+    #navbar {
         left: -280px;
         transition: all 0.5s ease;
     }
-    #mobile-bar{
+
+    #mobile-bar {
         background-color: #ee5253;
         color: white;
         padding: 18px;
         font-size: 28px;
         cursor: pointer;
     }
-    #navbar ul #mobile-cross, #mobile-bar{
+
+    #navbar ul #mobile-cross,
+    #mobile-bar {
         display: block;
     }
 }
