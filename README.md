@@ -6,8 +6,8 @@ In website development a better practice is to first create a graphical web desi
 Initially a psd template of website is designed and then the HTML, CSS & JS Code is Written.
 
 # View Demo
-[Click Here](https://himalgnn.github.io/psd-to-html){:target="_blank" rel="noopener"}
-[go](http://stackoverflow.com){:target="_blank" rel="noopener"}
+[Click Here](https://himalgnn.github.io/psd-to-html)
+
 
 
 # Deployment (Must Do)
