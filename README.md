@@ -6,7 +6,7 @@ In website development a better practice is to first create a graphical web desi
 Initially a psd template of website is designed and then the HTML, CSS & JS Code is Written.
 
 # Deployment (Must Do)
-Website is only half completed so Download the website folder, open it in VSCode and use liveserver for opening the index.html and other html pages.
+Just Download the Website folder and deploy it in your server to access the website.
 
 # Screenshot of Initial Design
 ![](Screenshots/web.jpg)
